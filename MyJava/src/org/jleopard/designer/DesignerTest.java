@@ -22,7 +22,7 @@ public class DesignerTest {
         new Thread(()-> System.out.println(singleton.say("JL5"))).start();*/
 
         // 观察者模式
-        Server server = new Server();
+       /* Server server = new Server();
         Observer zs = new UserObserver("张三");
         Observer ls = new UserObserver("李四");
         Observer  wml= new UserObserver("王美丽");
@@ -32,7 +32,11 @@ public class DesignerTest {
         server.setInfomation("Java是世界上最好用的语言！");
 
         server.removeObserver(zs);
-        server.setInfomation("明天放假！");
+        server.setInfomation("明天放假！");*/
 
+        // 装饰者模式
+        Sourceable source = new Source();
+        Sourceable obj = new Decorator(source);
+        obj.method();
     }
 }

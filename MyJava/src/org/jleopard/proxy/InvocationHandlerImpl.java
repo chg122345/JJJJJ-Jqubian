@@ -22,7 +22,9 @@ public class InvocationHandlerImpl implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        method.invoke(target,args);
-        return null;
+        System.out.println("前置增强");
+        Object obj = method.invoke(target, args);
+        System.out.println("后置增强");
+        return obj;
     }
 }

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="994c37bf-87ec-4a57-9dd7-459e7979ef3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/jleopard/designer/ConcretePrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/jleopard/designer/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/jleopard/recursion/FactorialSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/jleopard/recursion/PrefectNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jleopard/proxy/InvocationHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jleopard/proxy/InvocationHandlerImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="out/" />
@@ -65,131 +66,80 @@
     <session id="-1905981545">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.42" value="3" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="62" />
+          <entry key="java" value="69" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="62" />
+          <entry key="JAVA" value="69" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="2553" />
+          <entry key="java" value="3017" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2553" />
+          <entry key="JAVA" value="3017" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/Observerable.java">
+        <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/ProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="32" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/UserObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/DesignerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/Prototype.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="340">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/ConcretePrototype.java">
+        <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/InvocationHandlerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="391">
+              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/Sourceable.java">
+        <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/CarFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="255">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/Source.java">
+        <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="e#326#327#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/Decorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="221">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -227,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/org/jleopard/sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/org/jleopard/recursion/NarciNum.java" />
         <option value="$PROJECT_DIR$/src/org/jleopard/string/StringTest.java" />
-        <option value="$PROJECT_DIR$/src/org/jleopard/proxy/InvocationHandlerImpl.java" />
         <option value="$PROJECT_DIR$/src/org/jleopard/proxy/Factory.java" />
         <option value="$PROJECT_DIR$/src/org/jleopard/proxy/CarFactory.java" />
         <option value="$PROJECT_DIR$/src/org/jleopard/proxy/ProxyTest.java" />
@@ -242,9 +191,12 @@
         <option value="$PROJECT_DIR$/src/org/jleopard/designer/Sourceable.java" />
         <option value="$PROJECT_DIR$/src/org/jleopard/designer/Source.java" />
         <option value="$PROJECT_DIR$/src/org/jleopard/designer/Decorator.java" />
-        <option value="$PROJECT_DIR$/src/org/jleopard/designer/DesignerTest.java" />
         <option value="$PROJECT_DIR$/src/org/jleopard/designer/Prototype.java" />
         <option value="$PROJECT_DIR$/src/org/jleopard/designer/ConcretePrototype.java" />
+        <option value="$PROJECT_DIR$/src/org/jleopard/designer/DesignerTest.java" />
+        <option value="$PROJECT_DIR$/src/org/jleopard/recursion/PrefectNum.java" />
+        <option value="$PROJECT_DIR$/src/org/jleopard/recursion/FactorialSum.java" />
+        <option value="$PROJECT_DIR$/src/org/jleopard/proxy/InvocationHandlerImpl.java" />
       </list>
     </option>
   </component>
@@ -297,8 +249,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,7 +274,7 @@
               <item name="MyJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jleopard" type="462c0819:PsiDirectoryNode" />
-              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,13 +312,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DesignerTest">
+  <component name="RunManager" selected="Application.ProxyTest">
     <configuration name="DesignerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jleopard.designer.DesignerTest" />
       <module name="MyJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jleopard.designer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jleopard.recursion.FactorialSum" />
+      <module name="MyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jleopard.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,12 +352,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jleopard.lock.LockTest" />
+    <configuration name="PrefectNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jleopard.recursion.PrefectNum" />
       <module name="MyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jleopard.lock.*" />
+          <option name="PATTERN" value="org.jleopard.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,33 +378,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jleopard.string.StringTest" />
-      <module name="MyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jleopard.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StringTest" />
-      <item itemvalue="Application.ProxyTest" />
       <item itemvalue="Application.LambdaTest" />
-      <item itemvalue="Application.LockTest" />
       <item itemvalue="Application.DesignerTest" />
+      <item itemvalue="Application.PrefectNum" />
+      <item itemvalue="Application.FactorialSum" />
+      <item itemvalue="Application.ProxyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="Application.FactorialSum" />
+        <item itemvalue="Application.PrefectNum" />
         <item itemvalue="Application.DesignerTest" />
         <item itemvalue="Application.LambdaTest" />
-        <item itemvalue="Application.LockTest" />
-        <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.StringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -473,18 +425,20 @@
       <workItem from="1537184484568" duration="2459000" />
       <workItem from="1537441728142" duration="1825000" />
       <workItem from="1537790106229" duration="736000" />
-      <workItem from="1537968760951" duration="383000" />
+      <workItem from="1537968760951" duration="482000" />
+      <workItem from="1539739099735" duration="1982000" />
+      <workItem from="1539757398261" duration="499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32518000" />
+    <option name="totallyTimeSpent" value="35098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="26" width="1863" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3148046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32250962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -498,7 +452,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297414" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49917448" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49917448" weight="0.3297414" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008255" side_tool="true" weight="0.3297414" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286638" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -544,20 +498,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///opt/jdk1.8.0_172/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="592" column="10" selection-start-line="592" selection-start-column="10" selection-end-line="592" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="1055" column="23" selection-start-line="1055" selection-start-column="23" selection-end-line="1055" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -699,41 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jleopard/recursion/NarciNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/InvocationHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/jdk1.8.0_172/src.zip!/java/io/OutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -836,23 +741,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/Prototype.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/UserObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -867,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#326#327#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,6 +772,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/ConcretePrototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/recursion/PrefectNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/recursion/FactorialSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/recursion/NarciNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/DesignerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -887,17 +807,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/Prototype.java">
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/UserObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/ConcretePrototype.java">
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/designer/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/jleopard/proxy/InvocationHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>

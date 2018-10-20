@@ -11,7 +11,7 @@ package org.jleopard.string;
  */
 public class StringTest {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         String a = "abcde";
         String b = new String("abc");
         String c = new String(new char[]{'a','b','c'});
@@ -20,5 +20,25 @@ public class StringTest {
         System.out.println(a.equals(d));
         System.out.println(c == d);
         System.out.println(a.contains(b));
+    }*/
+
+    public static void sTT(String arg){
+        arg += "Hello";
+        System.out.println("---->1"+arg);
+    }
+
+    public static void bufferTT(StringBuffer arg){
+        arg.append("Hello");
+        System.out.println("---->2"+arg);
+    }
+
+    public static void main(String[] args) {
+        String str = "abc";
+        sTT(str);
+        System.out.println(str);
+
+        StringBuffer buffer = new StringBuffer("Jl");
+        bufferTT(buffer);
+        System.out.println(buffer);
     }
 }

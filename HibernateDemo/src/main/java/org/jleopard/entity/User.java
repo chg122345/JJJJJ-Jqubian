@@ -10,16 +10,21 @@
 package org.jleopard.entity;
 
 
-import javax.persistence.*;
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.CascadeType;
+import org.hibernate.annotations.GenericGenerator;
 
-import static javax.persistence.GenerationType.IDENTITY;
+import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "t_user")
 public class User {
 
     @Id
-    @GeneratedValue(strategy = IDENTITY)
+    @GeneratedValue(generator="_native")
+    @GenericGenerator(name="_native", strategy="native")
     private Integer id;
 
     private String name;
@@ -27,6 +32,11 @@ public class User {
     private String address;
 
     private String phone;
+
+    @ManyToMany(targetEntity = Role.class)
+    @JoinTable(name = "t_user_role", joinColumns = { @JoinColumn(name = "uid", referencedColumnName = "id") }, inverseJoinColumns = { @JoinColumn(name = "rid", referencedColumnName = "id") })
+    @Cascade(value = {CascadeType.SAVE_UPDATE,CascadeType.DELETE})
+    private Set<Role> roleSet = new HashSet<>();
 
     public User() {
     }
@@ -63,6 +73,14 @@ public class User {
         this.phone = phone;
     }
 
+    public Set<Role> getRoleSet() {
+        return roleSet;
+    }
+
+    public void setRoleSet(Set<Role> roleSet) {
+        this.roleSet = roleSet;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -70,6 +88,7 @@ public class User {
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", phone='" + phone + '\'' +
+                ", roleSet=" + roleSet +
                 '}';
     }
 }

@@ -22,6 +22,7 @@
         <property name="hbm2ddl.auto">update</property>
         <!-- 注册所有ORM映射文件 -->
         <mapping class="org.jleopard.entity.User" />
+        <mapping class="org.jleopard.entity.Role" />
 
     </session-factory>
 </hibernate-configuration>

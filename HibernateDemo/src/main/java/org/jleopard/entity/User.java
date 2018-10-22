@@ -10,8 +10,6 @@
 package org.jleopard.entity;
 
 
-import org.hibernate.annotations.Cascade;
-import org.hibernate.annotations.CascadeType;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -33,9 +31,8 @@ public class User {
 
     private String phone;
 
-    @ManyToMany(targetEntity = Role.class)
+    @ManyToMany(targetEntity = Role.class,/*mappedBy = "userSet",*/cascade = CascadeType.ALL)
     @JoinTable(name = "t_user_role", joinColumns = { @JoinColumn(name = "uid", referencedColumnName = "id") }, inverseJoinColumns = { @JoinColumn(name = "rid", referencedColumnName = "id") })
-    @Cascade(value = {CascadeType.SAVE_UPDATE,CascadeType.DELETE})
     private Set<Role> roleSet = new HashSet<>();
 
     public User() {
